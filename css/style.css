@@ -30,6 +30,11 @@ a {
   color: black;
 }
 
+h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
 h3 {
   font-weight: bold;
   font-size: 1.25rem;
@@ -41,7 +46,7 @@ header {
   float: left;
   width: 100%;
   padding: 1rem;
-  background: #f2f6f7;
+  background: #d9dce3;
 }
 
 .header-logo, .header-logo i, .header-logo h3 {
@@ -74,12 +79,50 @@ nav span {
 }
 
 main {
-  background-image: url("./eggs.jpg");
+  background-color: #d9dce3;
+  background-image: url("../images/mainfood.jpg");
   background-position: right;
   background-repeat: no-repeat;
   background-size: 50rem;
+}
 
+.hero-left {
+  width: 60%;
+  padding: 5rem;
+}
 
+.hero-left .input-field {
+  width: 80%;
+  height: 2rem;
+  padding-left: 1rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.hero-left a{
+  background: #ff8800;
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+}
+
+.hero-left .icon{
+  color: orange;
+  font-weight: bold;
+}
+
+.hero-icons {
+  margin-top: 2rem;
+  width: 60%;
+}
+
+.hero-icons i:not(:first-child) {
+  margin-left: 2rem;
+}
+
+.hero-icons span {
+  margin-left: 0.5rem;
 }
 
 footer {
