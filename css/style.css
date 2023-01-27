@@ -83,7 +83,7 @@ main {
   background-image: url("../images/mainfood.jpg");
   background-position: right;
   background-repeat: no-repeat;
-  background-size: 50rem;
+  background-size: 60rem;
 }
 
 .hero-left {
@@ -124,6 +124,65 @@ main {
 .hero-icons span {
   margin-left: 0.5rem;
 }
+
+.aboutUs {
+  float: left;
+  background-image: url(../images/cupcakes.jpg), url(../images/cookies.jpg);
+  background-position: right bottom, left top;
+  background-size: 28rem;
+  background-repeat: no-repeat;
+}
+
+
+.aboutUs-main {
+  float: left;
+  background: white;
+  opacity: 80%;
+  margin: 8rem 15rem;
+  width: 70%;
+  padding: 0 18rem;
+}
+
+.aboutUs-main h3 {
+  color: #ff8800;
+}
+
+.aboutUs-main h1 {
+  margin-top: 1rem;
+}
+
+.aboutUs-main p {
+  margin-top: 2rem;
+}
+
+.aboutUs-button {
+  margin-top: 2rem;
+}
+
+.aboutUs-button *{
+  float: left;
+}
+
+.aboutUs-button a {
+  background: #ff8800;
+  padding: 1rem;
+  border-radius: 5px 0 0px 5px;
+  color: white;
+}
+
+.aboutUs-button a+a {
+  border-radius: 0px 5px 5px 0;
+  opacity: 70%;
+}
+
+.aboutUs-button i {
+  background: #ff8800;
+
+}
+
+
+
+
 
 footer {
 
