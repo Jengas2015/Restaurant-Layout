@@ -38,6 +38,7 @@ h1 {
 h3 {
   font-weight: bold;
   font-size: 1.25rem;
+  color: #ff8800;
 }
 /******************************************
 /* LAYOUT
@@ -63,6 +64,7 @@ header {
 
 .header-logo h3 {
   margin-left: 1rem;
+  color: black;
 }
 
 nav, ul li {
@@ -143,9 +145,7 @@ main {
   padding: 0 18rem;
 }
 
-.aboutUs-main h3 {
-  color: #ff8800;
-}
+
 
 .aboutUs-main h1 {
   margin-top: 1rem;
@@ -180,9 +180,89 @@ main {
 
 }
 
+.orderNow {
+  background: #f2f6f7;
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+
+.orderNow h3 {
+  margin-top: 5rem;
+}
+
+.orderNow h1 {
+  margin-top: 2rem;
+}
+
+.orderNow-menu {
+  padding-bottom: 2rem;
+  margin-left: 33%;
+  width: 50%
+}
+
+.orderNow-menu ul{
+  margin-top: 4rem;
+  margin-left: auto;
+}
+
+.orderNow li {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid gray;
+}
+
+.orderNow-menu li:hover {
+  color:#ff8800;
+  border-bottom: 2px solid #ff8800;
+  transition: 300ms ease-in-out;
+}
+
+.orderNow-menu a:hover {
+  color: #ff8800;
+  transition: 300ms ease-in-out;
+}
+.orderNow-menu li:not(:first-child) {
+  margin-left: 4rem;
+}
+
+.orderNow-menuPictures {
+  margin-top: 2rem;
+  float: left;
+  width: 100%;
+}
+
+.orderNow-topPictures {
+  float: left;
+  height: 20rem;
+  width: 25%;
+
+}
+
+.orderNow-topPictures img{
+  padding: 0 1rem;
+  width: 19rem;
+  height: 19rem;
+  object-fit: cover;
+}
 
 
 
+.orderNow-bottomPictures {
+  float: left;
+  height: 20rem;
+  width: 25%;
+
+}
+
+.orderNow-bottomPictures img{
+  padding: 0 1rem;
+  width: 19rem;
+  height: 19rem;
+  object-fit: cover;
+}
 
 footer {
 
