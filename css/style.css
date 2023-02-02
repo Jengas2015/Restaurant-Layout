@@ -23,6 +23,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background: #d9dce3;
 }
 
 a {
@@ -48,6 +49,7 @@ header {
   width: 100%;
   padding: 1rem;
   background: #d9dce3;
+  
 }
 
 .header-logo, .header-logo i, .header-logo h3 {
@@ -86,6 +88,7 @@ main {
   background-position: right;
   background-repeat: no-repeat;
   background-size: 60rem;
+  
 }
 
 .hero-left {
@@ -262,6 +265,27 @@ main {
   width: 19rem;
   height: 19rem;
   object-fit: cover;
+}
+
+.openingHours {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.openingHours-bgImage {
+  opacity: 0.15;
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.openingHours > h3 {
+  margin-top: 2rem;
+  float: left;
+  width: 100%;
 }
 
 footer {
